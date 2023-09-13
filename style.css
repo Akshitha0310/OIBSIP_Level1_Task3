@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  
+}
+.container{
+    margin: 20px 400px;
+   
+    
+   
+}
+.card{
+    width: 70vh;
+    height: 50vh;
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin-top: 100px;
+    align-self: center;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    
+}
+.input1{
+   padding-top: 30px;
+   font-size: medium;
+   
+
+}
+.input2{
+    padding-top: 20px;
+   
+}
+.temp{
+    display: flex;
+    display: block;
+    
+}
+#temperature{
+    font-size: medium;
+    width: 260px;
+    border-radius: 6px;
+    
+}
+#fromUnit, #toUnit{
+    font-size: medium;
+    width: 150px;
+    border-radius: 6px;
+    
+}
+button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+
+
+}
+button:hover{
+    background-color: blue;
+}
+.result{
+    margin-top: 30px;
+    font-size: medium;
+   
+}
+.result-bar{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
